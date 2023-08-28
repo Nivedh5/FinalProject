@@ -4,7 +4,7 @@ import BackgroundImage from "../Svg/Section-Bg.svg"
 export const Header=styled.div`
 width: 1400px;
 height: 92px;
-flex-shrink: 0;
+// flex-shrink: 0;
 display:flex;
 justify-content:space-between;
 align-items:center;
