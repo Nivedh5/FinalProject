@@ -1,15 +1,19 @@
 import ScoreCard from "./Components/ScoreCard";
 import "./App.css"
-import LineGraph from "./Components/GraphComponent";
+// import LineGraph from "./Components/GraphComponent";
+import GraphPart from "./Components/GraphPart";
 
 
 function App() {
   return (
     <div className="App">
      <ScoreCard/>
-   <div style={{height:"235px",width:"704px"}}>
+   {/* <div style={{height:"235px",width:"704px"}}>
     <LineGraph/>
-    </div>
+    </div> */}
+    <br/>
+    <GraphPart/>
+    <br/>
     </div>
   );
 }

@@ -62,7 +62,6 @@ const ScoreCard = () => {
           <BlueProgress></BlueProgress>
           <VioletProgress></VioletProgress>
           <CyanProgress></CyanProgress>
-          {/* <SilverProgress></SilverProgress> */}
         </ProgressBar>
       </ProgressScore>
       <ColorDetail>
